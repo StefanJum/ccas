@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Super Linter
-        uses: open-education-hub/actions/super-linter@main
+        uses: StefanJum/actions/super-linter@StefanJum/latex-line-check
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
